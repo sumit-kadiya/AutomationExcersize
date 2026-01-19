@@ -3,9 +3,12 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="PackageTwo.InvalidLoginTestCase"/>
-      <class name="PackageOne.RegisterPageTest"/>
-      <class name="PackageOne.LoginPageTest"/>
+      <class name="tests.LoginPageTest"/>
+      <!--<class name="tests.TestCasesPageTest"/>
+      <class name="tests.ContactUsFormTest"/>
+      <class name="tests.RegisterExistingUserTest"/>
+      <class name="tests.RegisterPageTest"/>
+      <class name="tests.InvalidLoginTest"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

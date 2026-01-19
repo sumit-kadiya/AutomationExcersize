@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-07T15:37:42 IST" name="Default suite" finished-at="2026-01-07T15:38:13 IST" duration-ms="30547">
+  <suite started-at="2026-01-20T00:46:10 IST" name="Suite" finished-at="2026-01-20T00:46:29 IST" duration-ms="19145">
     <groups>
     </groups>
-    <test started-at="2026-01-07T15:37:42 IST" name="Default test" finished-at="2026-01-07T15:38:13 IST" duration-ms="30547">
-      <class name="tests.InvalidLoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InvalidLoginTest@489115ef]" started-at="2026-01-07T15:37:42 IST" name="setUp" finished-at="2026-01-07T15:38:03 IST" duration-ms="20280" status="PASS">
+    <test started-at="2026-01-20T00:46:10 IST" name="Test" finished-at="2026-01-20T00:46:29 IST" duration-ms="19145">
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTest@62ddbd7e]" started-at="2026-01-20T00:46:10 IST" name="setUp" finished-at="2026-01-20T00:46:19 IST" duration-ms="9101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidLoginTest()[pri:0, instance:tests.InvalidLoginTest@489115ef]" started-at="2026-01-07T15:38:03 IST" name="invalidLoginTest" finished-at="2026-01-07T15:38:12 IST" duration-ms="9762" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:tests.LoginPageTest@62ddbd7e]" started-at="2026-01-20T00:46:19 IST" name="loginTest" finished-at="2026-01-20T00:46:29 IST" duration-ms="9532" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.InvalidLoginTest@489115ef]" started-at="2026-01-07T15:38:12 IST" name="tearDown" finished-at="2026-01-07T15:38:13 IST" duration-ms="441" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTest@62ddbd7e]" started-at="2026-01-20T00:46:29 IST" name="tearDown" finished-at="2026-01-20T00:46:29 IST" duration-ms="406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.InvalidLoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

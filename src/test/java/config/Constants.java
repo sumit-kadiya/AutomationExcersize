@@ -37,7 +37,7 @@ public final class Constants {
 	//login_page
 	public static final String LOGIN_HEADER = "Login to your account";
 	public static final String EMAIL_LOGIN = "sumit@outlook.com";
-	public static final String PASSWORD_LOGIN = "sumit0000025";
+	public static final String PASSWORD_LOGIN = "sumit00000";
 	
 	//invalid login
 	public static final String ERROR_MSG = "Your email or password is incorrect!";
